@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    font-family: monospace;
+    background-color: darkgray;
+    background-image: url(../imagens/bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.hero
+{
+    margin: 0 0 50px 0;
+    height: 50px;
+    padding-top: 1px;
+}
+.hero-content
+{
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+    color: white
+
+}
+.hero-content h1
+{
+font-size: 56px;
+text-shadow: 2px 2px 2px black;
+text-transform: uppercase;
+
+}
+
+.hero-content p
+{
+background-color: rgba(0,0,0,.5);
+font-size: 18px;
+display: inline-block;
+padding: 10px;
+border-bottom: 2px solid;
+}
+
+.hero nav ul
+{
+margin:  20px 100px 0 0;
+text-align: right;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style-type: none;
+    border:1px solid white;
+    margin-left: 25px ;
+
+
+}
+.hero nav a
+{
+    background-color: rgba(0,0,0,.5);
+    padding: 16px;
+    display: block;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px; 
+}
+.hero nav a:hover
+{
+    background-color: rgba(0,0,0,.7);
+    color: rgb(126, 121, 121);
+    border:1px solid rgb(126, 121, 121);
+}
+
+main
+{
+    width: 90%;
+    margin: auto;
+    min-width: fit-content;
+    max-width: 860px;
+    
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 860px; ;
+    gap: 16px;
+    justify-content: center;
+    margin:auto auto 220px auto ;
+    background-color: white;
+    padding: 16px;
+}
+
+.cards article
+{
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+ .cards article img
+ { 
+    width: 100%;
+    display: block;
+}
+.cards article p
+{
+   background-color: #393535;
+   color: white;
+   margin: 0;
+   padding: 8px;
+   text-align: center;
+}
+.rodape
+{
+    color:white;
+    background-color: #6d6c68;
+    text-align: center;
+    padding: 30px;
+    text-shadow:2px 2px 2px black;
+    letter-spacing: 2px;
+}
